@@ -1,3 +1,4 @@
+<html>
 <?php
 date_default_timezone_set("Brazil/São Paulo");
 function diasemana($data) {
@@ -20,3 +21,4 @@ return "$diasemana";
 }
 echo '<h1>' , diasemana('20/05/2017') ,  ' - Dia da Semana ' , '</h1>' ;
 ?>
+</html>
